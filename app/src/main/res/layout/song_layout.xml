@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<androidx.cardview.widget.CardView android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="20dp">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:ellipsize="start"
+                android:text="bdoaboldbaolbad"
+                android:id="@+id/songText"/>
+
+<TextView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_below="@+id/songText"
+    android:id="@+id/artistText"
+    android:ellipsize="start"
+    android:maxWidth="100dp"
+
+    android:text="artist"/>
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:text="Play"
+                android:id="@+id/playButton"
+                android:layout_alignParentRight="true"/>
+
+
+        </RelativeLayout>
+    </androidx.cardview.widget.CardView>
